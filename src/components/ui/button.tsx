@@ -17,7 +17,7 @@ export interface ButtonProps
  */
 const makeGradientBorder = (bg: string): React.CSSProperties => ({
   border: "2px solid transparent",
-  background: `${bg} padding-box, var(--gradient-border, transparent) border-box`,
+  background: `${bg} padding-box, var(--border-gradient, transparent) border-box`,
 });
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
@@ -32,7 +32,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     };
 
     const bgByVariant: Record<string, string> = {
-      default: "linear-gradient(135deg, #6366f1, #8b5cf6)",
+      default: "var(--border-gradient)",
       ghost: "white",
       destructive: "linear-gradient(135deg, #ef4444, #dc2626)",
     };
