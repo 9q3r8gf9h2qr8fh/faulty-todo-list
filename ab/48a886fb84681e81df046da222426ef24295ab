@@ -1,0 +1,43 @@
+package-lock.json
+  s_2a80876d48f765::t_d31255d92d4d85 1-4081
+package.json
+  s_2a80876d48f765::t_21e042ac694e4f 1-38
+postcss.config.js
+  s_2a80876d48f765::t_688ca3bf92b873 1-6
+src/App.tsx
+  s_2a80876d48f765::t_7f2e58b82fa386 1-146
+src/index.css
+  s_2a80876d48f765::t_42979bbb98dea6 1-29
+.gitignore
+  s_2a80876d48f765::t_fbb16e6a69c600 7,10,12-24
+eslint.config.js
+  s_2a80876d48f765::t_fab69d287511d0 1-28
+index.html
+  s_2a80876d48f765::t_359cd85bcfd22c 1-13
+src/vite-env.d.ts
+  s_2a80876d48f765::t_6e5b3f3c2825ec 1
+tsconfig.app.json
+  s_2a80876d48f765::t_9a727cb4c32e8d 1-26
+tsconfig.json
+  s_2a80876d48f765::t_9a0ba2a7161195 1-7
+tsconfig.node.json
+  s_2a80876d48f765::t_6e28c6dc053043 1-24
+vite.config.ts
+  s_2a80876d48f765::t_fe526e023941ca 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ab48a886fb84681e81df046da222426ef24295ab",
+  "prompts": {},
+  "sessions": {
+    "s_2a80876d48f765": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "1f2f1d9f-f748-4ab2-807d-a18d4a928278",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ángel Privado <angel_privado@epam.com>"
+    }
+  }
+}
