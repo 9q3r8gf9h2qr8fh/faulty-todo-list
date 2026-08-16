@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * CSS THEME VARIABLES
+ *
+ * --border-gradient : gradient used for button and checkbox borders.
+ *
+ * BUG #5 (CSS Variable Mismatch):
+ *   Button and Checkbox components reference `var(--gradient-border)` but the
+ *   variable is defined here as `--border-gradient`.
+ *   Fix: rename `--border-gradient` to `--gradient-border` below,
+ *        OR update the component files to use `var(--border-gradient)`.
+ */
+:root {
+  --border-gradient: linear-gradient(
+    135deg,
+    #6366f1 0%,
+    #8b5cf6 50%,
+    #ec4899 100%
+  );
+  --border-gradient-hover: linear-gradient(
+    135deg,
+    #4f46e5 0%,
+    #7c3aed 50%,
+    #db2777 100%
+  );
+}
