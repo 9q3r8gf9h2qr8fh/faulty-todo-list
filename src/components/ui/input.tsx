@@ -14,7 +14,7 @@ export interface InputProps
 const gradientBorderStyle: React.CSSProperties = {
   border: "2px solid transparent",
   background:
-    "white padding-box, var(--gradient-border, transparent) border-box",
+    "white padding-box, var(--border-gradient, transparent) border-box",
 };
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(

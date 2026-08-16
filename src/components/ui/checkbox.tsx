@@ -15,7 +15,7 @@ import { cn } from "../../lib/utils";
 const gradientBorderStyle: React.CSSProperties = {
   border: "2px solid transparent",
   background:
-    "linear-gradient(white, white) padding-box, var(--gradient-border, transparent) border-box",
+    "linear-gradient(white, white) padding-box, var(--border-gradient, transparent) border-box",
 };
 
 const Checkbox = React.forwardRef<
