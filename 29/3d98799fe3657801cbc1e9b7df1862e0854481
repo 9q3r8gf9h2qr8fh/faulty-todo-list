@@ -1,0 +1,20 @@
+src/components/ui/button.tsx
+  h_54b193b7f61295 20,35
+src/components/ui/checkbox.tsx
+  h_54b193b7f61295 18
+src/components/ui/input.tsx
+  h_54b193b7f61295 17
+src/index.css
+  h_54b193b7f61295 19-20,24-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "293d98799fe3657801cbc1e9b7df1862e0854481",
+  "prompts": {},
+  "humans": {
+    "h_54b193b7f61295": {
+      "author": "Ángel Privado <angel_privado@epam.com>"
+    }
+  }
+}
